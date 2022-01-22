@@ -1,0 +1,46 @@
+.navbar {
+   -webkit-transition: all 0.3s ease-in-out;
+}
+
+.sidebar.toggled {
+    overflow: visible;
+    width: 6rem !important;
+}
+
+.bicon {
+    width: 30px;
+    height: 30px;
+}
+.brandName {
+    color: rgb(233, 223, 223);
+    font-size: 18px;
+}
+
+.navback {
+    background-color: #4e6ae6;
+    // background-image: linear-gradient(180deg, #858796 10%, #60616f 100%);
+    background-size: cover;
+}
+
+.navbar-expand {
+    position: absolute;
+    bottom: 5px;
+    right:20px;
+}
+
+.sidebar.toggled{
+    overflow: visible;
+    width: 5rem !important;
+}
+
+@media (min-width: 768px){
+    .sidebar.toggled .nav-item .nav-link {
+    text-align: center;
+    padding: 0.75rem 1rem;
+    width: 5rem;
+    font-size: .65rem;
+}
+
+}
+
+
